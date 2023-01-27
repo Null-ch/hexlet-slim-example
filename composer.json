@@ -1,0 +1,21 @@
+{
+    "name": "nulls/hexlet-slim-example",
+    "autoload": {
+        "psr-4": {
+            "Nulls\\HexletSlimExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Null-ch",
+            "email": "zuxobot@yandex.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/http": "^0.4.0",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0"
+    }
+}
