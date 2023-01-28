@@ -14,3 +14,11 @@ $app->get('/', function ($request, $response) {
     // return $response->write('Welcome to Slim!');
 });
 $app->run();
+
+$app->get('/users', function ($request, $response) {
+    return $response->write('GET /users');
+});
+$app->post('/users', function ($request, $response) {
+    return $response->withStatus(302);
+});
+?>
